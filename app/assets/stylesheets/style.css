@@ -1,6 +1,14 @@
+body {
+  background-color: lavender;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
+  border: solid white 1px;
+  opacity: 0.9;
+  border-radius: 10px;
+  min-height: 100vh;
 }
 
 .nav_bar {
@@ -8,8 +16,13 @@
   font-size: 18px;
   font-weight: bold;
   word-spacing: 5em;
+  margin-top: 3em;
+  background-color: white;
+  text-align: center;
+
 }
 
 .project_name {
   text-align: center;
+  margin-top: 2em;
 }
