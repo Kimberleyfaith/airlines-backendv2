@@ -1,12 +1,8 @@
 body {
   background-color: lavender;
-}
-
-.container {
   max-width: 960px;
   margin: 0 auto;
-  border: solid white 1px;
-  opacity: 0.9;
+  border: solid white 7px;
   border-radius: 10px;
   min-height: 100vh;
 }
@@ -16,9 +12,10 @@ body {
   font-size: 18px;
   font-weight: bold;
   word-spacing: 5em;
-  margin-top: 3em;
   background-color: white;
   text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
 
 }
 
