@@ -21,5 +21,21 @@ body {
 
 .project_name {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  font-family: fantasy;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+.header {
+  margin-left: 10px;
+}
+
+.col_names {
+  margin-left: 10px;
+}
+
+.col_data {
+  margin-left: 10px;
 }

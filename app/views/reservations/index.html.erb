@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Reservations</h1>
+<h1 class="header">Reservations</h1>
 
 <table>
-  <thead>
+  <thead class="col_names">
     <tr>
       <th>Seat</th>
       <th>Created at</th>
@@ -14,7 +14,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody class="col_data">
     <% @reservations.each do |reservation| %>
       <tr>
         <td><%= reservation.seat %></td>
