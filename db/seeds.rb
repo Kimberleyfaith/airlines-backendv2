@@ -29,7 +29,9 @@ puts "#{Reservation.count} Reservation created"
 
 puts "flights and airplane"
 p1.flights << f1
-p2.flights << f3
+p2.flights << f2
+p1.flights << f3
+p2.flights << f4
 
 puts "flights and reservations"
 f1.reservations << r1
